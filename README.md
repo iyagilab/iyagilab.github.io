@@ -2,6 +2,8 @@ npm install -g gatsby-cli
 
 #### 시작
 
+npm start
+
 "start": "gatsby develop",
 "build": "gatsby build",
 "clean": "gatsby clean"
