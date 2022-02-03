@@ -1,0 +1,12 @@
+{
+    "data": [{"domain": {"x": [0.0, 1.0], "y": [0.0, 1.0]},
+              "hole": 0.3,
+              "hovertemplate": "죄종별=%{label}<br>수=%{value}<extra></extra>",
+              "labels": ["강력범죄", "교통범죄", "절도범죄", "폭력범죄"], 
+              "legendgroup": "",
+              "name": "",
+              "showlegend": "True",
+              "type": "pie",
+              "values": [ 24332, 348725, 179517, 265768]}],
+    "layout": {"legend": {"tracegroupgap": 0}, "template": "...", "title": {"text": "<b>2020년의 범죄별 수치<b>"}}
+}

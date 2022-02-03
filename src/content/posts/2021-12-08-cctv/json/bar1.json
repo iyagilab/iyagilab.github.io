@@ -1,0 +1,26 @@
+{
+    "data": [{"alignmentgroup": "True",
+              "hovertemplate": "=%{y}<extra></extra>",
+              "legendgroup": "",
+              "marker": {"color": "#636efa", "pattern": {"shape": ""}},
+              "name": "",
+              "offsetgroup": "",
+              "orientation": "v",
+              "showlegend": "False",
+              "textposition": "auto",
+              "type": "bar",
+              "x": ["경기도", "서울특별시", "경상남도", "경상북도", "대구광역시", "강원도", "부산광역시", "전라남도",
+                          "울산광역시", "인천광역시", "전라북도", "광주광역시", "충청남도", "제주특별자치도", "대전광역시", "충청북도",
+                          "세종특별자치시"], 
+                          
+                "xaxis": "x",
+              "y": [25123, 14253,  7802,  6151,  5808,  4629,  3987,  3653,  3325,  2917,
+                           2607,  2503,  2382,  2273,  1331,  1294,  1212],
+              "yaxis": "y"}],
+    "layout": {"barmode": "relative",
+               "legend": {"tracegroupgap": 0},
+               "template": "...",
+               "title": {"text": "<b>전국 CCTV 수<b>"},
+               "xaxis": {"anchor": "y", "domain": [0.0, 1.0], "title": {"text": ""}},
+               "yaxis": {"anchor": "x", "domain": [0.0, 1.0], "title": {"text": ""}}}
+}
