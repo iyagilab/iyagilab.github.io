@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `iYagiLab inc.`,
-    siteUrl: "http://www.iyagilab.com/",
+    siteUrl: "https://www.iyagilab.com/",
     description: `이야기 연구소의 공공데이터 분석 블로그 입니다.`,
     components: {
       appbar: {
@@ -139,7 +139,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-canonical-urls",
       options: {
-        siteUrl: "http://www.iyagilab.com/",
+        siteUrl: "https://www.iyagilab.com/",
         stripQueryString: true,
       },
     },
