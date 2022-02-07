@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://www.iyagilab.com/sitemap/sitemap-index.xml
-Host: www.iyagilab.com
+Sitemap: https://www.iyagilab.com/sitemap/sitemap-index.xml
+Host: https://www.iyagilab.com
