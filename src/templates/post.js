@@ -70,16 +70,9 @@ export default function PostTemplate({ data, pageContext }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={body} />
-        <meta
-          property="og:image"
-          content={featuredImage.childImageSharp.fluid}
-        />
+        <meta property="og:image" content={featuredImage} />
         {/* <meta property="og:url" content={url} /> */}
         <meta property="og:site_name" content={title} />
-        <meta
-          name="google-site-verification"
-          content="ZM_W0dIVoR-3EMAyZaZVzKqZfH9o2UqOS43-D7oYJ1g"
-        />
       </Helmet>
       <Layout>
         <Box flexGrow={1} width="100%" maxWidth={960} marginX="auto">
