@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `iYagiLab inc.`,
+    title: `Data-iYagi`,
     siteUrl: "https://www.iyagilab.com/",
-    description: `이야기 연구소의 공공데이터 분석 블로그 입니다.`,
+    description: `이야기 연구소의 공공데이터 분석 블로그`,
     components: {
       appbar: {
         position: "sticky",
@@ -147,6 +147,18 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "Data-iYagi",
+        short_name: "Data-iYagi",
+        start_url: "/",
+        background_color: "#FFF",
+        theme_color: "#F7A046",
+        display: "standalone",
+        icon: "src/images/Favicon.ico",
       },
     },
   ],
