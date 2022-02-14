@@ -33,9 +33,10 @@ export default function PageTemplate({ data }) {
         <Box padding={2}>
           <Box marginBottom={1}>
             <Typography
-              variant="h4"
+              variant="h5"
               style={{
                 fontFamily: "Nanum Gothic",
+                fontWeight: "bold",
               }}
             >
               {title}

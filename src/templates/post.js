@@ -79,7 +79,11 @@ export default function PostTemplate({ data, pageContext }) {
           <Box padding={2}>
             <Box marginBottom={1}>
               <Typography
-                variant="h4"
+                variant="h5"
+                style={{
+                  fontFamily: "Nanum Gothic",
+                  fontWeight: "bold",
+                }}
                 // style={{
                 //   fontFamily:
                 //     "Nanum Gothic, -apple-system, BlinkMacSystemFont, Nanum Gothic, sans-serif"

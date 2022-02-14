@@ -8,11 +8,11 @@ module.exports = {
         position: "sticky",
         links: [
           {
-            title: "보라",
+            title: "BORA",
             url: "/bora",
           },
           {
-            title: "회사",
+            title: "iYagiLab inc.",
             url: "/iYagiLab",
           },
         ],
@@ -156,7 +156,7 @@ module.exports = {
         short_name: "Data-iYagi",
         start_url: "/",
         background_color: "#FFF",
-        theme_color: "#F7A046",
+        theme_color: "#283845",
         display: "standalone",
         icon: "src/images/Favicon.ico",
       },
