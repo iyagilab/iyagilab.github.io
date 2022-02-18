@@ -7,19 +7,19 @@ function ResearchImg() {
   return (
     <>
       <img
+        src={Summary}
+        style={{ width: 295, height: 270, marginRight: 10 }}
+        alt="Summary"
+      />
+      <img
         src={Manufacturing}
-        style={{ width: 270, height: 250, marginRight: 30 }}
+        style={{ width: 295, height: 270, marginRight: 10 }}
         alt="Manufacturing"
       />
       <img
         src={Profiling}
-        style={{ width: 270, height: 250, marginRight: 30 }}
+        style={{ width: 295, height: 270, marginRight: 10 }}
         alt="Profiling"
-      />
-      <img
-        src={Summary}
-        style={{ width: 270, height: 250, marginRight: 30 }}
-        alt="Summary"
       />
     </>
   );
