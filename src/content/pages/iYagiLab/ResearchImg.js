@@ -8,18 +8,18 @@ function ResearchImg() {
     <>
       <img
         src={Summary}
-        style={{ width: 295, height: 270, marginRight: 10 }}
+        style={{ width: 295, height: 270, margin: 5 }}
         alt="Summary"
       />
       <img
-        src={Manufacturing}
-        style={{ width: 295, height: 270, marginRight: 10 }}
-        alt="Manufacturing"
+        src={Profiling}
+        style={{ width: 295, height: 270, margin: 5 }}
+        alt="Profiling"
       />
       <img
-        src={Profiling}
-        style={{ width: 295, height: 270, marginRight: 10 }}
-        alt="Profiling"
+        src={Manufacturing}
+        style={{ width: 295, height: 270, margin: 5 }}
+        alt="Manufacturing"
       />
     </>
   );

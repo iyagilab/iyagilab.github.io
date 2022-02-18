@@ -10,17 +10,17 @@ function Use() {
     >
       <img
         src={use1}
-        style={{ width: 295, height: 270, marginRight: 10 }}
+        style={{ width: 295, height: 270, margin: 5 }}
         alt="use1"
       />
       <img
         src={use2}
-        style={{ width: 295, height: 270, marginRight: 10 }}
+        style={{ width: 295, height: 270, margin: 5 }}
         alt="use2"
       />
       <img
         src={use3}
-        style={{ width: 295, height: 270, marginRight: 10 }}
+        style={{ width: 295, height: 270, margin: 5 }}
         alt="use3"
       />
     </div>

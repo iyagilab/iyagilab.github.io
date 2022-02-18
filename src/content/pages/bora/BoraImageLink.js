@@ -5,7 +5,7 @@ function BoraImageLink() {
   return (
     <img
       src={Logo2}
-      style={{ width: 100, height: 100, marginLeft: 35 }}
+      style={{ width: 100, height: 100, margin: 35 }}
       alt="logo"
     />
   );
