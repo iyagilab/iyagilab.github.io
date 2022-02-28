@@ -69,7 +69,7 @@ export default function PostTemplate({ data, pageContext }) {
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
-        <meta property="og:image" content={featuredImage.childImageSharp} />
+        <meta property="og:image" content={Img} />
         {/* <meta property="og:description" content={body} />
         <meta property="og:image" content={featuredImage} /> */}
         {/* <meta property="og:url" content={url} /> */}
