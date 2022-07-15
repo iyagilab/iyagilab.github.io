@@ -43,7 +43,6 @@ function stack() {
           alt="NGINX"
           style={{ display: "inline", marginRight: 10 }}
         ></img>
-        <br />
         <img
           src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=Gunicorn&logoColor=white"
           alt="Gunicorn"
